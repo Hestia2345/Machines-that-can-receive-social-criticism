@@ -5,7 +5,7 @@ import random
 from dhooks import Webhook
 import json
 
-token = '토큰 넣어주세요'
+token = 'ODsjkf9770.489&0848902*0239483257023fjhdslcs8d08048cs7'
 
 intents = discord.Intents.default()
 intents.members = True
