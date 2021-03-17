@@ -176,3 +176,5 @@ async def _help(ctx):
         await ctx.send(embed=embed)
 
 bot.run(token)
+
+#노예, X스는 좀 심했네요 ㅋㅋㅋ
